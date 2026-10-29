@@ -1,0 +1,23 @@
+# Ambiente virtual Python e config de IDE
+.venv/
+.idea/
+
+# Caches do Python
+__pycache__/
+*.pyc
+
+# Artefatos intermediarios de build (os .exe finais em programa/ sao versionados)
+build/
+dist/
+*.spec
+
+# Dados de teste com e-mail real / sensiveis
+programa/teste.csv
+
+# Nunca versionar backups de caixas nem mensagens
+*.pst
+*.eml
+
+# Logs
+logs/
+*.log

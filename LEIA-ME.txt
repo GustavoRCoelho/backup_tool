@@ -1,0 +1,17 @@
+BACKUP DE CAIXAS DE CORREIO (PST)
+=================================
+
+Esta pasta esta dividida em duas partes:
+
+[ programa\ ]   --> E AQUI QUE VOCE USA
+    De um duplo clique em:   programa\backup_gui.exe   (interface grafica)
+    Ou use pela linha de comando:   programa\backup_tool.exe
+    IMPORTANTE: mantenha os arquivos dessa pasta JUNTOS - o backup_gui.exe
+    precisa do backup_tool.exe e do config.ini ao lado dele.
+    Ajuste o config.ini (pasta de saida) e coloque as contas na planilha.
+
+[ codigo-fonte\ ]   --> CODIGO E DOCUMENTACAO
+    Codigo-fonte (Python), README.md (instrucoes completas),
+    requirements.txt e build.ps1 (gera os .exe de novo apos alterar o codigo).
+
+Comece pelas instrucoes completas em:  codigo-fonte\README.md

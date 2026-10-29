@@ -1,0 +1,5 @@
+# Python 64 bits (compativel com Outlook 64 bits e Redemption64.dll).
+pywin32>=306
+openpyxl>=3.1
+# PyInstaller so e necessario para gerar o .exe (nao em runtime).
+pyinstaller>=6.0
